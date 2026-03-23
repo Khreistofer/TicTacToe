@@ -82,6 +82,7 @@ function Board()
 
     function handleToggleMode() {
         setIsVsComputer(prev => !prev);
+        handleReset()
     }
 
     function handleReset() {
