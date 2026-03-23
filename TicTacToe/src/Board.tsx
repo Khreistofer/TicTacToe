@@ -3,7 +3,7 @@ import './Board.css'
 import Square from './Square.tsx'
 import Controls from './Controls.tsx'
 
-function Board({stopGame}: any)
+function Board()
 {
     const [isVsComputer, setIsVsComputer] = useState(false);
     const [xIsNext, setXIsNext] = useState(true)
