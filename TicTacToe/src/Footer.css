@@ -1,0 +1,44 @@
+.footer {
+  margin-top: 25px;
+  text-align: center;
+}
+
+
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  text-decoration: none;
+
+  color: #5a4e7c;
+  font-size: 14px;
+  font-weight: 500;
+
+  padding: 8px 14px;
+  border-radius: 10px;
+
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+
+  box-shadow:
+    4px 4px 10px rgba(0, 0, 0, 0.1),
+    -4px -4px 10px rgba(255, 255, 255, 0.7);
+
+  transition: all 0.2s ease;
+}
+
+
+.github-icon {
+  width: 18px;
+  height: 18px;
+}
+
+
+.github-link:hover {
+  transform: translateY(-2px);
+  color: #8b5cf6;
+}
+
+.github-link:active {
+  transform: scale(0.96);
+}

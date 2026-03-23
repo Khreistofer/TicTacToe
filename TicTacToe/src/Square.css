@@ -1,0 +1,26 @@
+.square {
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.1s, box-shadow 0.2s, filter 0.2s;
+    box-shadow: 0 4px 15px rgba(118, 75, 162, 0.4);
+}
+
+.square:hover {
+    filter: brightness(1.15);
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(118, 75, 162, 0.6);
+}
+
+.square:active {
+    transform: scale(0.95);
+}
